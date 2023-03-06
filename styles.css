@@ -1,0 +1,120 @@
+@charset "UTF-8";
+header {
+    width: 768px;
+    height: 250px;
+    background-image: url(p2DYOlogo.png);
+}
+main {
+    width: 598px;
+    height: 1200px;
+    float: left;
+    padding: 10px;	
+}
+footer {
+    width: 768px;
+    height: 50px;
+    clear: both;
+    background-color: #C7BDCA;
+}
+#container {
+    width: 768px;
+    height: auto;
+    margin: auto;
+    background-color: white;
+}
+body {
+    background-image: url(background.jpg);
+    background-position: 0% 0%;
+    background-size: cover;
+	 background-color: #86BBD8;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;	
+}
+aside {
+    width: 150px;
+    height: 1600px;
+    float: left;
+    background-color: #7B4A9F;
+    margin: auto;
+}
+img {
+    padding: 10px;
+    float: right;
+}
+article {
+    margin-bottom: 50px;
+}
+
+h1 {
+    color: #C6B4D7;
+    font-size: 30px;
+	font-family: "expressway", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+}
+h3{
+	font-size:12pt;
+	padding:10px;
+}
+h2{
+	padding:10px;
+}
+p{
+    font-weight: 400;
+    font-style: normal;
+   
+}
+.floatLeft{
+	float:left;
+}
+nav {
+	width: 768px;
+	height: 50px;
+}
+#container nav li  {
+    display: block;
+    list-style-type: none;
+    width: 60px;
+    margin: 0px 60px 0px 0px;
+    float: left;
+    font-family: neonoir, 'sans-serif;';
+    font-size: 18px;
+}
+#container nav ul {
+    margin: auto;
+    width: 565px;
+}
+nav a:link {
+    text-decoration: none;
+    padding: 10px;
+    color: #8C46E5;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #7B4A9F;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #C6B4D7;
+}
+nav a:active {
+    text-decoration: none;
+    color: #191919;
+}
+.submit_btn {
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    -webkit-box-shadow: 6px 6px 35px 1px #000000;
+    box-shadow: 6px 6px 35px 1px #000000;
+    background-color: #C6B4D7;
+}
+
+.submit_btn:hover {
+	 -webkit-box-shadow: 6px 6px 35px 1px #000000;
+    box-shadow: 6px 6px 35px 1px #000000;
+}
